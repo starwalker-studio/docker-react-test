@@ -1,5 +1,5 @@
 version: '2'
 services:
-  client:
-  build:
-    context: ./client
+    client:
+        build:
+            context: ./client

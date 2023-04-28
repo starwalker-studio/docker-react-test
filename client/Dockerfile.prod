@@ -5,5 +5,5 @@ RUN npm i
 COPY . .
 RUN npm run build
 
-FROM ngnix 
+FROM nginx
 COPY --from=build /client/build /usr/share/nginx/html
